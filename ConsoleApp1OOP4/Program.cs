@@ -33,9 +33,39 @@
 
             #endregion
             #region Q2
-            //Method 
+            //Method overloading means having multiple methods with the same name but different parameters in the same class.
+            //compile time polymorphism(static binding)
+            //class Calculator
+            //{
+            //public int Add(int a, int b)
+            //{
+            //    return a + b;
+            //}
 
-            #endregion
-        }
+            //public int Add(int a, int b, int c)
+            //{
+            //    return a + b + c;
+            //}
+            //}
+            //method overriding means Derived class overrides a virtual method from the base class using the override keyword.
+            //run time polymorphisme(dynamic binding)
+            //class Animal
+            //{
+            //public virtual void Speak()
+            //{
+            //    Console.WriteLine("Animal sound");
+            //}
+            //}
+
+            //class Dog : Animal
+            //{
+            //public override void Speak()
+            //{
+            //    Console.WriteLine("Dog barks");
+            //}
+            //}
+
+        #endregion
+    }
     }
 }
