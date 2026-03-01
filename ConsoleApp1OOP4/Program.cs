@@ -65,6 +65,25 @@
             //}
             //}
 
+            #endregion
+            #region Q3
+            //1. virtual  :used with parent class to can Allow a method to be overridden in a derived class.
+            //and means this method can change in derived class
+            //class Animal
+            //{
+            //public virtual void Speak()
+            //{
+            //    Console.WriteLine("Animal sound");
+            //}
+            //}
+            //2. override :used with derived class and can replace the parent class implementation and change the parent method behavior
+            //class Dog : Animal
+            //{
+            //public override void Speak()
+            //{
+            //    Console.WriteLine("Dog barks");
+            //}
+            //}
         #endregion
     }
     }
